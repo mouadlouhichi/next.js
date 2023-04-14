@@ -283,7 +283,6 @@ async function runOperation(renderData: RenderData) {
     serverComponents: true,
     assetPrefix: '',
     pageConfig: {},
-    fetchCache: true,
     reactLoadableManifest: {},
   }
   const result = await renderToHTMLOrFlight(
